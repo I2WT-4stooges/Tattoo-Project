@@ -1,0 +1,42 @@
+body {
+    background-image: url("Utility/Black-Marble-Wallpapers-HD.jpg");
+    background-color: black;
+}
+
+.navigation {
+    background-color: dimgray;
+    overflow: hidden;
+
+}
+
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.navigation a.active {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+.footer{
+	background-color: dimgray;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:1;
+}
