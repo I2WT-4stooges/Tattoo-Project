@@ -1,0 +1,36 @@
+To start working you have to follow these steps:
+
+1.Go to https://github.com/I2WT-4stooges/Tattoo-Project
+
+2.Click green button named Code ->Dowload ZIP
+
+3.Extract the whole folder in your computer
+
+4.Right click on the folder ->Open as brackets project
+
+5.You are free to start coding
+
+6.When finished, commit ONLY the files that you worked on back in GitHub
+ in the place that the original file exists and merge them
+
+7.To continue working, download from GitHub ONLY the files that you will work on
+ by right clicking on the cloud icon next to the file name and click on "Save link as...".
+ Save it in the place that the original file exists and overwrite it
+
+8.You are free to start coding again
+
+
+
+Important Rules when working:
+
+1.Don't change file name
+
+2.Don't move the files from their original position in the directory
+
+3.Don't change the original code provided in the files. If you need to make changes contact the Team Leader first
+
+4.Document EVERYTHING that you do each time when you finish working in a .txt file with the date and a description of what you did
+ (ie.: 1st December: Added pictures in portfolio, added links to paragraphs in biography, finished a part of tattoo history, added 3 articles in tattoo news.
+ 3rd December: Modified the style in my paragraphs, added headings)
+
+5.Upload it to https://github.com/I2WT-4stooges/Tattoo-Project with file name: ProgressLog'InsertYourNameHere'.txt
