@@ -1,0 +1,5 @@
+30 November
+Created the HTML files that will be used in the project
+Added navigation bar and footer in all HTML files
+Created the CSS file that contains the general theme of the website
+Uploaded the project in GitHub so everybody can start working on it
