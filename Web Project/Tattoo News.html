@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+    
     <head>
-	<title>HTML Tattoo News</title>
-        <link rel="stylesheet" type="text/css" href="General%20Theme.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="General%20Theme.css">
+        
         <style>
             .tattoos{
                 list-style-type:none;
             }
             ul.tattoos li{
-		width:auto;
-		margin-left: auto;
-		margin-right: auto;
-		display:none;
+				width:auto;
+				margin-left: auto;
+				margin-right: auto;
+				display:none;
 			}
             #previous{
                 position:absolute;
@@ -26,7 +29,7 @@
                 right:0px;
                 font-size: 50px;
             }
-            #newsReferences{
+            #references{
                 color:black;
                 position:absolute;
                 margin-top:60px;
@@ -57,7 +60,6 @@
                 background:darkgray;
                 border:px ridge darkgray;
                 padding:15px;
-                
             }
             a:link{
                 color:black;
@@ -72,14 +74,41 @@
     </head>
 
     <body>
-        <div class="navigation">
-            <a href="Homepage.html">Homepage</a>
-            <a href="Portfolio.html">Portfolio</a>
-            <a href="History%20of%20Tattoos.html">History of Tattoos</a>
-            <a class="active" href="Tattoo%20News.html">Tattoo News</a>
-            <a href="Merchandise.html">Merchandise</a>
-            <a href="Book%20an%20Appointment.html">Book an Appointment</a>
-        </div>
+        <ul class="navigation">
+            <li><a href="Homepage.html">Homepage</a></li>
+            <li class="dropdown-nav">
+                <a class="dropbtn" href="Portfolio.html" >Portfolio</a>
+                <div class="dropdown-content">
+                    <a href="Biography.html">Biography</a>
+                    <a href="TattooWork.html">Tattoo Work</a>
+                    <a href="Wannado's.html">Wannado's</a>
+                </div>
+            </li>
+            <li class="dropdown-nav">
+                <a class="dropbtn" href="History%20of%20Tattoos.html">History of Tattoos</a>
+                <div class="dropdown-content">
+                    <a href="HistoryAncientTattoos.html">Ancient Tattoos</a>
+                    <a href="HistoryTools.html">Tools</a>
+                    <a href="HistoryTribes.html">Tribes</a>
+                    <a href="HistoryModern.html">Modern</a>
+                    <a href="HistoryMilitaryWiccanReligion.html">Military/Wiccan/Religion</a>
+                    <a href="HistoryReferenceList.html">Reference List</a>
+                </div>
+            </li>
+            <li><a class="active" href="Tattoo%20News.html">Tattoo News</a></li>
+            <li><a href="Merchandise.html">Merchandise</a></li>
+            <li><a href="Book%20an%20Appointment.html">Book an Appointment</a></li>
+            <li class="translate">
+                <div id="google_translate_element"></div>
+            </li>
+            <li class="theme-switch">
+                <label class="switch">
+                  <input type="checkbox" id="theme-toggle">
+                  <span class="slider round"></span>
+                </label>
+                <p id="tdt">Toogle <br>Dark Theme</p>
+            </li>
+        </ul>
 
         <div class="footer">
             <p>Created by the<a href="4StoogesTeam.html">4 Stooges Team</a>, 2020.</p>
@@ -104,7 +133,7 @@
                 For some, those changes may be permanent. Stick-and-poke tattooing,which involves repeatedly pricking the skin, is proliferating among those at home, healthy and unhindered during quarantine.
             </p>
 
-            <a class ="readmore" href="Give%20Yourself%20A%20Tattoo.html">READ MORE</a> 
+            <a class="readmore" href="Give%20Yourself%20A%20Tattoo.html">READ MORE</a> 
 
             <h1>Ink Rx? Welcome to the World of Paramedical Tattoos</h1>
 
@@ -114,7 +143,8 @@
                 accident, wandered into Eternal Ink Tattoo Studio and asked for a fingernail design at the tips of his fingers. It was his way of making light of a bad situation.
             </p>
 
-            <a href="paramedical%CE%A4attoos.html">READ MORE</a>
+            <a class="readmore"
+               href="paramedical%CE%A4attoos.html">READ MORE</a>
 
             <h1>Smart Tattoo Technology: The Future Within Skin</h1>
 
@@ -122,7 +152,8 @@
                 Much like their more permanent counterparts, Bio-Wearables are basically temporary tattoos that are being produced to do everything from monitor blood sugar levels to help you communicate wirelessly. 
             </p>
 
-            <a href="smartTattoos.html">READ MORE</a>
+            <a class="readmore"
+               href="smartTattoos.html">READ MORE</a>
 
             <h1>Priming the immune system</h1>    
 
@@ -130,7 +161,8 @@
                 More recently, research also has uncovered some good news. Most people don’t experience any problems from a tattoo. And in them, getting inked body art may confer health benefits. The inking process may actually turn on the immune system, helping to keep such individuals healthy.
             </p>
 
-            <a href="immuneSystem.html">READ MORE</a>
+            <a class="readmore"
+               href="immuneSystem.html">READ MORE</a>
 
 
             <h1>Not-so-permanent art</h1>
@@ -140,7 +172,8 @@
             </p>
 
 
-            <a href="art.html">READ MORE</a>
+            <a class="readmore"
+               href="art.html">READ MORE</a>
 
             <h1>Tattoos in the Workplace</h1>
 
@@ -149,16 +182,17 @@
                 There will always be varying opinions about what is deemed socially acceptable in different situations, but tattoos should not be the deciding factor when choosing a competent applicant for a job. Such stigmas may be more prominent in white collar positions than blue collar ones 
             </p>
 
-            <a href="workplace.html">READ MORE</a>
+            <a class="readmore"
+               href="workplace.html">READ MORE</a>
             
             <h1>World Tattoo Events</h1>
             
             <p class="articles">
             Tattoo conventions from all around the world
             </p>
-            <a href="WorldTattoEvents.html">READ MORE</a>
+            <a class="readmore" href="WorldTattoEvents.html">READ MORE</a>
             
-            <a  id="newsReferences" href="NewsReferences.html">References</a>
+            <a id="references" href="NewsReferences.html">References</a>
             
             <a id="previous"><img src="PhotosForNews/arrow-left.png"></a>
             <a id="next"><img src="PhotosForNews/arrow-right.png"></a>
@@ -201,6 +235,11 @@
             previousPlaceArrowEl.addEventListener("click", previousPlace);
 
         </script>
+        <script type="text/javascript" src="General%20Scripts.js"></script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 
 </html>
