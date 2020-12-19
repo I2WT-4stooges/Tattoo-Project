@@ -1,30 +1,31 @@
-
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
     <head>
-        <title>HTML History Modern</title>
-        <link rel="stylesheet" type="text/css" href="General%20Theme.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link id="theme" rel="stylesheet" type="text/css" href="General%20Theme.css">
         <title> Modern History Of Tattoos </title>
         <style>   
-           #uparrow{
+            #uparrow{
                 position:fixed;
                 bottom:60px;
                 right:90px;
-                 
             }
 
             .background {
                 background-color:floralwhite;
                 opacity: 0.9;
-                margin: 50px
+                margin: 80px
             }
             .text {
                 ;
                 font-family: sans-serif;
                 padding: 50px;
             }
-
+            .historylinks {
+                text-align: center;
+            }
             #main-paragraph {
                 font-weight: bold;
             }
@@ -35,20 +36,8 @@
                 padding: 5px;
                 text-decoration: none;
                 font-size: 20px;
-                color: blueviolet;
+                
 
-            }
-            }
-            a:hover, a:active, a:focus{
-
-                color: orange;
-                background-color: rgb(235,228,235); 
-                padding:2px;
-
-            }
-            a:visited {
-                color: darkgray;
-                background-color: rgb(235,228,235); 
             }
             h1, h2, p{
                 padding-left: 50px;
@@ -61,11 +50,14 @@
 
             .center {
                 display: block;
-                margin-left: 200px;
+                margin-left: auto;
                 margin-right: auto;
+
                 position:static;
-                width: 140px;
-                height: 110px;
+            }
+
+            #russia{
+                float: right;
             }
 
             {
@@ -83,43 +75,62 @@
                 clear: both;
                 display: table;
             }
-
+            #russia{
+                float: right;
+            }
             #timetree{
-                max-width: 400px;
-                height: 2550px;
+                max-width: 100%;
+                height: 2000px;
                 position: absolute;
-                top: 280px;
-                right:50px;
-           
+                top: 160px;
+                right:80px;
 
             }
             p{
                 border-right:  right: 200px;
             }
-           
-             
 
         </style>
 
     </head>
 
     <body>
-        <div class="navigation">
-            <a href="Homepage.html">Homepage</a>
-            <a href="Portfolio.html">Portfolio</a>
-            <a class="active" href="History%20of%20Tattoos.html">History of Tattoos</a>
-            <ul>
-                <a href="HistoryAncientTattoos.html"></a>
-                <a href="HistoryTools.html"></a>
-                <a href="HistoryTribes.html"></a>
-                <a href="HistoryModern.html"></a>
-                <a href="HistoryMilitaryWiccanReligion.html"></a>
-                <a href="HistoryReferenceList.html"></a>
-            </ul>
-            <a href="Tattoo%20News.html">Tattoo News</a>
-            <a href="Merchandise.html">Merchandise</a>
-            <a href="Book%20an%20Appointment.html">Book an Appointment</a>
-        </div>
+        <ul class="navigation">
+            <li><a href="Homepage.html">Homepage</a></li>
+            <li class="dropdown-nav">
+                <a class=" dropbtn" href="Portfolio.html" >Portfolio</a>
+                <div class="dropdown-content">
+                    <a href="Biography.html">Biography</a>
+                    <a href="TattooWork.html">Tattoo Work</a>
+                    <a href="Wannado's.html">Wannado's</a>
+                </div>
+            </li>
+            <li class="dropdown-nav">
+                <a class="active dropbtn" href="History%20of%20Tattoos.html">History of Tattoos</a>
+                <div class="dropdown-content">
+                    <a href="HistoryAncientTattoos.html">Ancient Tattoos</a>
+                    <a href="HistoryTools.html">Tools</a>
+                    <a href="HistoryTribes.html">Tribes</a>
+                    <a class="active" href="HistoryModern.html">Modern</a>
+                    <a href="HistoryMilitaryWiccanReligion.html">Military/Wiccan/Religion</a>
+                    <a href="HistoryReferenceList.html">Reference List</a>
+                </div>
+            </li>
+            <li><a href="Tattoo%20News.html">Tattoo News</a></li>
+            <li><a href="Merchandise.html">Merchandise</a></li>
+            <li><a href="Book%20an%20Appointment.html">Book an Appointment</a></li>
+            <li class="translate">
+                <div id="google_translate_element"></div>
+            </li>
+            <li class="theme-switch">
+                <label class="switch">
+                  <input type="checkbox" id="theme-toggle">
+                  <span class="slider round"></span>
+                </label>
+                <p id="tdt">Toogle <br>Dark Theme</p>
+            </li>
+        </ul>
+        
         <div class="background"> 
             <div class="text">
                 <div id="timeline">
@@ -132,19 +143,19 @@
                 <h2>10th century to -18th century</h2>
 
                 <p>During the <em>10th</em> century it was common to see northern tribes with tattoos covering their arms all the way up to the neck. English soldiers wore tattoos for protection, the most common tattoo was the Jerusalem cross. Occasionally they could use them to identify fallen warriors</p>
-
-               
-                <p> <em>16th</em> century was when Japanese practise of tattooing was birthed, before then only fishermen, prostitutes and manual workers to show status. But not until mid-18th century where the tattoos really speed up even though they were still forbidden. One reason was the jealousy of the kimono. Only royals were allowed to bear them, and the lower classes found a different way of decorating their bodies in form of tattoos. Since being forbidden the artists were practicing in secret.</p>
-
                 
+<img class="center" src="HTML-pictures.html/wheel.jpg" style="opacity: 0.5">
+                <p> <em>16th</em> century was when Japanese practise of tattooing was birthed, before then only fishermen, prostitutes and manual workers to show status. But not until mid-18th century where the tattoos really speed up even though they were still forbidden. One reason was the jealousy of the kimono. Only royals were allowed to bear them, and the lower classes found a different way of decorating their bodies in form of tattoos. Since being forbidden the artists were practicing in secret.</p>
+                
+                <img src="HTML-pictures.html/tribejapaneseman.jpg">
 
                 <p><em>17th</em> century Samoan islands Dutch sailors wrote that they met people with incredible fabric strapped to their bodies, in fact this was tattoos. The way of acquiring tattoos in the Samoa islands have changed very little over 2000 years and resembles many other traditional tattoo methods. By using combs in different sizes and hammering the pigment or ink, it is very painful and takes an immense amount of time to finish. The word tattoo might have originated from the Samoan word <b>‘Tatau’</b>.</p>
-
                 
+                <img src="HTML-pictures.html/tribethepaintedones.jpg.png">
 
                 <p><em>18th </em>century, people in high positions started to get tattoos. Mid-century the tattoos were more visible on both artists and some US presidents, that were showing their art publicly. Tattoo shops now started to open up all over US and UK. 1870 it became immensely popular amongst the upper class and even spread up to the royal elite. Still the middle class associated tattoos to criminals and sailors and was not very fond of the idea of getting a tattoo.</p>
-
                 
+                <img src="HTML-pictures.html/navytattoo2.jpg">
 
                 <p><em>19th</em> century common people saw the military and sailors coming home covered with exotic new tattoos from foreign lands, and the tattoo became a bit more popular. In 1929 the Duke of Montrose and Sir Ian Colquhoun revealed their tattoos on a formal dinner this was the first time a tattoo had been mentioned in an English newspaper. </p>
                 <p>[5,6,17]</p>
@@ -191,7 +202,7 @@
                     The era of experimenting with tattoos on unusual places, design and humor began to show in  the designs, like foxes behind the ear, text or pictures between 
                     fingers andtoes, even on the inside of the lips and under hair etc.</p>
 
-                
+                <img src="HTML-pictures.html/rihanna.jpg" style="padding-left: 50px; " >
                 <p><em>2015</em> Cosmetic tattoos for women started to once again get popular, people tattooed their lips, eyebrows and eyelids, and it keeps growing in popularity. The Book "Covered In Ink: Tattoos, Women, and the Politics of the Body" written by professor Beverly Yuen Thompson were published, Professor Beverly made earlier in 2009, "Covered: a documentary about women and tattoos" aswell. If you haven’t seen it yet, do it. She raises issues like what is seen female and butch tattoos and how society treats women that are "not" fitting the norm or what is socially accepted.</p>
                 <p>[5,6]</p>
 
@@ -214,6 +225,11 @@
         <div class="footer">
             <p>Created by the <a href="4StoogesTeam.html">4 Stooges Team</a>, 2020.</p>
         </div>
+        <script type="text/javascript" src="General%20Scripts.js"></script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 
 </html>

@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
     <head>
-        <title>HTML History Tribes</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="General%20Theme.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="General%20Theme.css">
 
         <style>   
             #uparrow{
@@ -110,22 +108,43 @@
     </head>
 
     <body>
-        <div class="navigation">
-            <a href="Homepage.html">Homepage</a>
-            <a href="Portfolio.html">Portfolio</a>
-            <a class="active" href="History%20of%20Tattoos.html">History of Tattoos</a>
-            <ul>
-                <a href="HistoryAncientTattoos.html"></a>
-                <a href="HistoryTools.html"></a>
-                <a href="HistoryTribes.html"></a>
-                <a href="HistoryModern.html"></a>
-                <a href="HistoryMilitaryWiccanReligion.html"></a>
-                <a href="HistoryReferenceList.html"></a>
-            </ul>
-            <a href="Tattoo%20News.html">Tattoo News</a>
-            <a href="Merchandise.html">Merchandise</a>
-            <a href="Book%20an%20Appointment.html">Book an Appointment</a>
-        </div>
+        <ul class="navigation">
+            <li><a href="Homepage.html">Homepage</a></li>
+            <li class="dropdown-nav">
+                <a class=" dropbtn" href="Portfolio.html" >Portfolio</a>
+                <div class="dropdown-content">
+                    <a href="Biography.html">Biography</a>
+                    <a href="TattooWork.html">Tattoo Work</a>
+                    <a href="Wannado's.html">Wannado's</a>
+                </div>
+            </li>
+            <li class="dropdown-nav">
+                <a class="active dropbtn" href="History%20of%20Tattoos.html">History of Tattoos</a>
+                <div class="dropdown-content">
+                    <a href="HistoryAncientTattoos.html">Ancient Tattoos</a>
+                    <a href="HistoryTools.html">Tools</a>
+                    <a class="active" href="HistoryTribes.html">Tribes</a>
+                    <a href="HistoryModern.html">Modern</a>
+                    <a href="HistoryMilitaryWiccanReligion.html">Military/Wiccan/Religion</a>
+                    <a href="HistoryReferenceList.html">Reference List</a>
+                </div>
+            </li>
+            <li><a href="Tattoo%20News.html">Tattoo News</a></li>
+            <li><a href="Merchandise.html">Merchandise</a></li>
+            <li><a href="Book%20an%20Appointment.html">Book an Appointment</a></li>
+            <li class="translate">
+                <div id="google_translate_element"></div>
+            </li>
+            <li class="theme-switch">
+                <label class="switch">
+                  <input type="checkbox" id="theme-toggle">
+                  <span class="slider round"></span>
+                </label>
+                <p id="tdt">Toogle <br>Dark Theme</p>
+            </li>
+            
+        </ul>
+        
         <div class="background">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
@@ -239,7 +258,8 @@
         <div class="footer">
             <p>Created by the <a href="4StoogesTeam.html">4 Stooges Team</a>, 2020.</p>
         </div>
-
+        <script type="text/javascript" src="General%20Scripts.js"></script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
