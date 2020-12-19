@@ -1,6 +1,6 @@
 body {
-    background-image: url("Utility/White-Marble-Wallpapers-HD.png");
-    background-color: white;
+    background-image: url("Utility/Black-Marble-Wallpapers-HD.jpg");
+    background-color: black;
 }
 
 .navigation {
@@ -77,7 +77,6 @@ li.theme-switch{
     position:inherit;
     margin: 0px 0px 0px 0px;
     text-align: center;
-        
 }
 
 #switch-container {
